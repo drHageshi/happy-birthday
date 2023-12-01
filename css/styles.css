@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+  font-family: "WhitehallCyr", sans-serif;
+  color: #8b6e60;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background-color: #fefaee;
+}
+
+.block {
+  height: 100vh;
+}
+
+.big-text {
+  font-size: 128px;
+  text-align: center;
+  max-width: 1100px;
+  margin: 0 auto 100px;
+  font-weight: 400;
+  text-shadow: 0px 3px 0px #b7947e;
+}
+
+.def-text {
+  font-weight: 400;
+  font-size: 64px;
+  text-align: center;
+  margin-bottom: 60px;
+  text-shadow: 0px 3px 0px #b7947e;
+}
+
+.collage {
+  border: 5px solid #8b6e60;
+  display: flex;
+  position: relative;
+}
+
+.phrases {
+  margin-bottom: 61px;
+}
+.phrases-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.main-img {
+  display: flex;
+  justify-content: center;
+}
+
+.collage-arrow {
+  position: absolute;
+  left: -347px;
+  top: -97px;
+  transform: rotate(4deg);
+}
+
+.swiper-slide {
+  margin-bottom: 50px;
+}
+
+.section-1,
+.section-2,
+.section-3,
+.section-4,
+.section-5 {
+  border-bottom: 5px solid #8b6e60;
+}
+
+.section-2,
+.section-3,
+.section-4,
+.section-5,
+.section-6 {
+  background-image: url("../images/background.png");
+  background-size: cover;
+}
+
+.section-4,
+.section-5 {
+  background-image: url("../images/july.png");
+  background-size: cover;
+}
+
+.swiper {
+  width: 1426px;
+  height: 700px;
+}
+
+.video-slide {
+  user-select: none;
+  display: flex;
+  justify-content: center;
+}
+
+.video-wrapper {
+  max-width: 1306px;
+}
+
+video {
+  max-width: 1306px;
+  margin: 0 auto;
+}
+
+.image-slide {
+  display: flex;
+  justify-content: center;
+  user-select: none;
+  cursor: pointer;
+}
+
+.image-slide img,
+.video-slide iframe {
+  border: 5px solid #8b6e60;
+  border-radius: 5px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #8b6e60;
+  font-size: 30px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.swiper-button-prev {
+  left: 5px;
+}
+
+.swiper-button-next {
+  right: 5px;
+}
+
+.fp-watermark {
+  display: none;
+}
